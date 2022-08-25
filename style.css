@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    margin-top: 200px;
+    background-color: #FFA1FF;
+}
+
+img {
+    margin-top: -7%;
+    margin-bottom: 30px;
+}
+
+button {
+    cursor: pointer;
+    font-size: 1.5rem;
+    height: 2.7rem;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background: rgb(211, 87, 163);
+    padding: 0.5rem 1.8rem;
+    box-shadow: 0 0.5rem 0.5rem 0.5rem rgba(202, 125, 173, 0.65);
+    transition: 0.2s all;
+    font-family: 'Gaegu', cursive;
+}
+
+button:hover {
+    filter: brightness(110%);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    height: auto;
+    max-width: 500px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 10px 10px 10px rgba(82, 77, 77, 0.2);
+}
+
+#factText {
+    font-family: 'Gaegu', cursive;
+    font-size: 26px;
+}
+
+@media (max-width: 585px) {
+    img {
+        width: 500px;
+    }
+    .container {
+        width: 350px;
+    }
+}
