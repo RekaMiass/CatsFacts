@@ -1,11 +1,11 @@
 body {
     text-align: center;
-    margin-top: 200px;
     background-color: #FFA1FF;
+    font-family: 'Gaegu', cursive;
+    padding-top: 30px;
 }
 
 img {
-    margin-top: -7%;
     margin-bottom: 30px;
 }
 
@@ -36,23 +36,40 @@ button:active {
     margin-right: auto;
     margin-top: 50px;
     height: auto;
-    max-width: 500px;
-    padding: 20px 20px;
+    width: 400px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.4);
     box-shadow: 0 10px 10px 10px rgba(82, 77, 77, 0.2);
 }
 
 #factText {
-    font-family: 'Gaegu', cursive;
     font-size: 26px;
+    padding: 20px 20px;
+}
+
+@media (max-width: 830px) {
+    img {
+        width: 400px;
+    }
+    .container {
+        width: 350px;
+    }
 }
 
 @media (max-width: 585px) {
     img {
-        width: 500px;
+        width: 350px;
     }
     .container {
-        width: 350px;
+        width: 250px;
+    }
+}
+
+@media (max-width: 380px) {
+    img {
+        width: 300px;
+    }
+    .container {
+        width: 200px;
     }
 }
